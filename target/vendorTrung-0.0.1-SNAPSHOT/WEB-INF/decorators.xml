@@ -1,0 +1,20 @@
+<decorators defaultdir="/decorators">
+	<excludes>
+<!--		//<pattern>/api*</pattern>-->
+<!--		//<pattern>/login*</pattern>-->
+<!--		<pattern>/store/create</pattern>-->
+<!--		<pattern>/store/list</pattern>-->
+		<pattern>/*</pattern>
+
+	</excludes>
+	<!-- apply Sitemesh default template -->
+	<decorator name="adminss" page="admin.jsp">
+		<pattern>/adminss*</pattern>
+	</decorator>
+	<decorator name="sellessr" page="seller.jsp">
+		<pattern>/sellessr*</pattern>
+	</decorator>
+<!--	<decorator name="web" page="web.jsp">-->
+<!--		<pattern>/*</pattern>-->
+<!--	</decorator>-->
+</decorators>
